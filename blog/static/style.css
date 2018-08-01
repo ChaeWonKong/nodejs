@@ -1,0 +1,38 @@
+html, body {
+	margin: 0 0;
+	padding: 0 0;
+}
+
+.header {
+	margin: 0 auto;
+}
+
+.container {
+	display: flex;
+	position: fixed;
+	margin: auto;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	max-height: 80px;
+	background-color: #fff;
+}
+
+.menu {
+	display: flex;
+	padding-left: 10px;
+}
+
+.heroImg {
+	height: 75vh;
+	min-height: 340px;
+	background-image: url("./img/main.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.content {
+	margin: 0 auto;
+	max-width: 1000px;
+	margin-top: 50px;
+}

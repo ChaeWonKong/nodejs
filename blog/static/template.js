@@ -5,19 +5,23 @@ module.exports = {
 			<html lang="en">
 			<head>
 				<meta charset="UTF-8">
-				<title>Leon Kong's Blog - ${title}</title>
-				<link rel="stylesheet" type="text/css" href="style.css">
+				<title>Leon Kong's Blog</title>
+				<link rel="stylesheet" type="text/css" href="static/style.css">
 			</head>
 			<body>
 				<section class="header">
-					<h1 class="main"><a href="/">Leon Kong's Blog</a></h1>
-					<ul class="menu">
+					<div class="container">
+						<h1 class="main">Leon Kong's Blog</h1>
+						<ul class="menu">
 						<li class="menu"><a href="#">About</a></li>
 						<li class="menu"><a href="#">Algorithm</a></li>
 						<li class="menu"><a href="#">JavaScript</a></li>
 						<li class="menu"><a href="#">ComputerScience</a></li>
 						<li class="menu"><a href="#">ToyProjects</a></li>
 					</ul>
+					</div>
+					<div class="heroImg">
+					</div>
 				</section>
 
 				<section class="content">
